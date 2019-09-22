@@ -221,8 +221,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\stable\nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="SIPSorcery, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SIPSorcery.3.0.0\lib\netstandard2.0\SIPSorcery.dll</HintPath>
+    <Reference Include="SIPSorcery, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SIPSorcery.3.0.1\lib\netstandard2.0\SIPSorcery.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />

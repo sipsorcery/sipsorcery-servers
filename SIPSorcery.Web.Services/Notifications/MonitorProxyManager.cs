@@ -4,8 +4,6 @@ using System.Configuration;
 using System.Linq;
 using System.ServiceModel;
 using System.ServiceModel.Configuration;
-using System.Threading;
-using System.Web;
 using System.Web.Configuration;
 using SIPSorcery.SIP.App;
 using SIPSorcery.Sys;

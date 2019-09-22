@@ -268,8 +268,8 @@
     <Reference Include="Microsoft.Scripting.Metadata, Version=1.2.2.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
       <HintPath>..\packages\DynamicLanguageRuntime.1.2.2\lib\net45\Microsoft.Scripting.Metadata.dll</HintPath>
     </Reference>
-    <Reference Include="SIPSorcery, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SIPSorcery.3.0.0\lib\netstandard2.0\SIPSorcery.dll</HintPath>
+    <Reference Include="SIPSorcery, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SIPSorcery.3.0.1\lib\netstandard2.0\SIPSorcery.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
@@ -341,6 +341,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppCommon\SilverlightPolicyServer.cs" />
+    <Compile Include="SIPMonitor\Monitoring\SIPMonitorClientSession.cs" />
+    <Compile Include="SIPMonitor\Monitoring\SIPMonitorFilter.cs" />
+    <Compile Include="SIPMonitor\SIPMonitorClientConnection.cs" />
+    <Compile Include="SIPMonitor\SIPMonitorControlClient.cs" />
+    <Compile Include="SIPMonitor\SIPMonitorMachineClient.cs" />
+    <Compile Include="SIPMonitor\SIPNotifications\SIPDialogEventSubscription.cs" />
+    <Compile Include="SIPMonitor\SIPNotifications\SIPEventSubscription.cs" />
+    <Compile Include="SIPMonitor\SIPNotifications\SIPPresenceEventSubscription.cs" />
     <Compile Include="SIPProxy\SIPCallDispatcherFile.cs" />
     <Compile Include="AppCommon\Switchboard\SwitchboardToken.cs" />
     <Compile Include="AssemblyInfo.cs">
